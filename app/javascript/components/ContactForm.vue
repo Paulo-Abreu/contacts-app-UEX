@@ -54,7 +54,6 @@ export default {
         { name: 'Brazil', code: '+55', phoneMask: '(00) 00000-0000' },
         { name: 'United States', code: '+1', phoneMask: '(000) 000-0000' },
         { name: 'United Kingdom', code: '+44', phoneMask: '0000 000 0000' },
-        // Adicione mais países conforme necessário
       ],
       phoneMaskInstance: null,
       cpfMaskInstance: null,
