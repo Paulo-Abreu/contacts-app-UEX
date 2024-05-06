@@ -32,7 +32,7 @@ export default {
       })
       .then(response => {
         console.log('Success:', response);
-        // Lógica após registro bem-sucedido
+        window.location = '/';
       })
       .catch(error => {
         console.error('Error:', error.response ? error.response.data : error.message);
@@ -41,7 +41,6 @@ export default {
   }
 };
 </script>
-
 
 <style scoped>
 .card {

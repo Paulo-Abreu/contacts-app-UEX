@@ -1,17 +1,27 @@
 {
   "dependencies": {
+    "@fawmi/vue-google-maps": "^0.9.79",
     "@rails/webpacker": "5.4.4",
     "axios": "^1.6.8",
+    "imask": "^7.6.0",
+    "intl-tel-input": "^22.0.2",
     "vue": "^3.4.26",
+    "vue-google-autocomplete": "^1.1.4",
+    "vue-intl-tel-input": "^1.0.0",
     "vue-loader": "^17.4.2",
     "vue-template-compiler": "^2.7.16",
+    "vue3-google-autocomplete": "^0.0.5",
+    "vue3-tel-input": "^1.0.4",
     "webpack": "^4.46.0",
     "webpack-cli": "^3.3.12"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.18.6",
+    "@babel/plugin-proposal-optional-chaining": "^7.21.0",
     "@babel/plugin-proposal-private-methods": "^7.18.6",
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@babel/plugin-transform-private-methods": "^7.24.1",
     "@babel/plugin-transform-private-property-in-object": "^7.24.5",
-    "webpack-dev-server": "^3"
+    "webpack-dev-server": "^5.0.4"
   }
 }

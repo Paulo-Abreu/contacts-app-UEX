@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>ContactsApp</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Contacts App</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-    <meta name="csrf-token" content="<%= form_authenticity_token %>">
 
-    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "application", media: "all", "data-turbo-track": "reload" %>
+    <%= javascript_pack_tag "application", "data-turbo-track": "reload" %>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCE_Xmd4KbP4qk_KXS_AQoXalFCKD2UEuo"></script>
   </head>
 
   <body>
